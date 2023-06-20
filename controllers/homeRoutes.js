@@ -19,4 +19,25 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get
+router.get('/login', (req, res) => {
+    if(req.session.logged_in) {
+        res.redirect('/');
+        return;
+    }
+
+    res.render('login');
+});
+
+router.get('/signup', (req, res) => {
+    if (req.session.logged_in) {
+        res.redirect('/');
+        return;
+    }
+
+    res.render('signup');
+})
+
+router.get('/dashboard', withAuth, (req, res) => {
+    res.render('dashboard')
+})
+module.exports = router;
