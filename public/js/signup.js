@@ -1,10 +1,12 @@
 const signupFormHandler = async (event) => {
     event.preventDefault();
 
-    const email = document.querySelector('#email-signup').Value.trim();
-    const password = document.querySelector('#password-signup').Value.trim();
+    const email = document.querySelector('#email-signup').value.trim();
+    const password = document.querySelector('#password-signup').value.trim();
     const name = document.querySelector('#name-signup').value.trim();
     const lastName = document.querySelector('#lastName-signup').value.trim();
+
+    console.log("Data to be sent: ", email, password, name, lastName);
 
     if (email && password) {
         const response = await fetch('/api/users/signup', {
@@ -22,5 +24,5 @@ const signupFormHandler = async (event) => {
 };
 
 document
-  .querySelector('signup-form')
+  .querySelector('.signup-form')
   .addEventListener('submit', signupFormHandler);

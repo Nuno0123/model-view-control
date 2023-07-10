@@ -1,8 +1,10 @@
 const loginBtn = document.querySelector('.login')
 const signupBtn = document.querySelector('.signup')
 
+
+
 loginBtn.addEventListener('click', () => {
-    document.location,replaced('/login');
+    document.location.replace('/login');
 })
 
 signupBtn.addEventListener('click', () => {

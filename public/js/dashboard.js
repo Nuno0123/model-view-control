@@ -7,11 +7,14 @@ function Submit(){
     fetch('/api/post', {
         method: 'POST',
         body: JSON.stringify({
-            title: title.ariaValueMax,
+            title: title.value,
             body: body.value
         }),
-        headers: {'Content-Type': 'application/jsom'}
+        headers: {'Content-Type': 'applicaiton/json'}
     })
+
 }
+
+
 
 btn.addEventListener('click', Submit)
