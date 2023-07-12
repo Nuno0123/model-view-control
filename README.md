@@ -48,7 +48,7 @@
   ## Preview
 
   
-  ![Preview](assets/images/14-mvc-homework-demo-01.gif)
+  ![Preview](assets/img/model-view-controller.gif)
   
  
   
