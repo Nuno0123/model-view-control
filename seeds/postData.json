@@ -4,12 +4,12 @@
 "body": "lorem"
 },
 {
-"userId": 2,
-"title": "Second Post",
-"body": "lorem" 
-},
-{
-"userId": 3,
-"title": "Third Post",
-"body": "lorem"
-}]
+    "userId": 2,
+    "title": "Seccond Post",
+    "body": "lorem"
+    },
+    {
+        "userId": 3,
+        "title": "Third Post",
+        "body": "lorem"
+        }]
