@@ -1,5 +1,5 @@
 const User = require('./user');
-const Post = require('./Post')
+const Post = require('./post');
 
 Post.belongsTo(User, {
     foreignKey: 'userId',
