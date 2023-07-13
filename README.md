@@ -35,23 +35,13 @@
   Then run the "db/schema.sql" command to read the database from the schama.sql file. Quit mysql. 
   Run "npm run seed" command to run the seeds.js files, and then "npm start" to start the server. 
   Open the browser and enter http://localhost:3001 in the link bar Insomnia app, to test the code. 
-  Or simply launch the app by following the link below. 👇
+  Or simply launch the app by following the link below. 
   
 
 
   ## Link
   
-  To lunch the app click here [![Heroku Badge](https://www.herokucdn.com/deploy/button.svg)](https://model-view-controller-1086f15cdc66.herokuapp.com/)
-
-
-  
-  ## Preview
-
-  
-  ![Preview](assets/img/model-view-controller.gif)
-  
- 
-  
+  To lunch the app click here [![Heroku Badge](https://www.herokucdn.com/deploy/button.svg)](https://model-view-controller-1086f15cdc66.herokuapp.com/) 
   
   ## License
   
@@ -73,5 +63,7 @@
   [Nestor Montanez](https://github.com/nuno0123)
   
   ### Email me
+
+  [Nestor Montanez](mailto:nuno0123@me.com)
    
  
